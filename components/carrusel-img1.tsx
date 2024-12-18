@@ -1,19 +1,27 @@
-import * as React from "react"
-import Autoplay from "embla-carousel-autoplay"
+import * as React from "react";
+import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
 
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/carousel";
 
 export function CarouselPlugin() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
-  )
+  );
+
+  const images = [
+    "/assets/fotocarruselinter1.png",
+    "/assets/fotocarruselinter2.png",
+    "/assets/fotocarruselinter3.png",
+    "/assets/fotocarruselinter4.png",
+  ];
 
   return (
     <Carousel
@@ -23,20 +31,24 @@ export function CarouselPlugin() {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
+        {images.map((src, index) => (
           <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">{index + 1}</span>
-                </CardContent>
-              </Card>
-            </div>
+            <Card className="p-0 m-0 border-none">
+              <CardContent className="p-0 m-0">
+                <Image
+                  src={src}
+                  alt={`Imagen ${index + 1}`}
+                  width={200}
+                  height={200}
+                  className="object-cover w-full h-full"
+                />
+              </CardContent>
+            </Card>
           </CarouselItem>
         ))}
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-  )
+  );
 }

@@ -9,6 +9,7 @@ import {
 import { Link } from "@nextui-org/link";
 
 import { siteConfig } from "@/config/site";
+import Image from "next/image";
 
 export const Navbar = () => {
   return (
@@ -18,6 +19,14 @@ export const Navbar = () => {
         justify="start"
       >
         <NavbarItem className="hidden sm:flex gap-6 item-nav ml-20">
+        <Link href="/" className="navbar-link-logo">
+        <Image
+                src="/assets/logoblancointer.png"
+                alt="Descripción de la imagen"
+                width={100}
+                height={100}
+              />
+        </Link>
           <Link href="/about" className="navbar-link">
             Sobre Nosotros
           </Link>
@@ -30,8 +39,16 @@ export const Navbar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+      <NavbarContent className="sm:hidden basis-1 pl-4 togle">
         <NavbarMenuToggle />
+        <Link href="/" className="navbar-link-logo">
+        <Image
+                src="/assets/logonegrointer.png"
+                alt="Descripción de la imagen"
+                width={100}
+                height={100}
+              />
+        </Link>
       </NavbarContent>
 
       <NavbarMenu className="back-menu">

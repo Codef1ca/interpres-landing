@@ -6,10 +6,13 @@ import { SeparatorDemo } from "@/components/separador";
 import Image from "next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { Navbar as NextUINavbar } from "@/components/navbar"; // Asumiendo que este es el componente
 
 export default function Home() {
   return (
+    
     <section className="home-section">
+      <NextUINavbar />
       <div className="hero-home-container">
         <div className="container-maquina">
         <Typewriter
@@ -52,7 +55,7 @@ export default function Home() {
 
       <div className="container-rosa">
                 <Image
-                src="/assets/foto-rosa.png" 
+                src="/assets/fototraduccion.png" 
                 alt="Descripción de la imagen" 
                 width={400} 
                 height={200}
