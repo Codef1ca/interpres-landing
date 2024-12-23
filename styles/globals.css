@@ -9,7 +9,7 @@ body{
 }
 
 .hero-home-container{
-    background-image: url('../public/assets/back-home-inter.png');
+    background-image: url('/assets/back-home-inter.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1200px;
@@ -27,7 +27,7 @@ body{
 }
 
 .contenedor-tarjeton {
-  background-image: url('../public/assets/tarjeton-inter.png');
+  background-image: url('/assets/tarjeton-inter.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 600px;
@@ -44,7 +44,7 @@ body{
 }
 
 .contenedor-tarjeton2{
-  background-image: url('../public/assets/tarjeton2-inter.png');
+  background-image: url('/assets/tarjeton2-inter.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 600px;
@@ -534,7 +534,7 @@ body{
   }
 
   .contact-section{
-    background-image: url('../public/assets/backg-contacto.png');
+    background-image: url('/assets/backg-contacto.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 1200px;
@@ -650,7 +650,7 @@ body{
       width: 484px;
   }
   .contenedor-tarjeton2{
-    background-image: url('../public/assets/tarjeton2-respo2.png');
+    background-image: url('/assets/tarjeton2-respo2.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 800px;
@@ -1007,7 +1007,7 @@ width: 300px;
   padding: 0px 0px;
 }
 .contenedor-tarjeton{
-  background-image: url('../public/assets/tarjeton1-mq.png');
+  background-image: url('/assets/tarjeton1-mq.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 800px;
