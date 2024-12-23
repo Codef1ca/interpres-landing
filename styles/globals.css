@@ -94,11 +94,15 @@ body{
 }
 
 .back-menug{
-    background-color: #5C70FA;
+    background-color: #5C70FA !important;
+}
+
+.back-menu{
+  background-color: #5C70FA !important;
 }
 
 .back-menug2{
-  background-color: #fFFF;
+  background-color: #5C70FA;
 }
 
 .navbar-link {
@@ -127,7 +131,6 @@ body{
 }
 
 .subt-hero{
-    margin-left: -30px;
     font-size: 20px;
 }
 
@@ -686,7 +689,6 @@ body{
           height: 500px;
     }
     .subt-hero {
-        margin-left: -30px;
         font-size: 16px;
     }
     .txt-carru{
