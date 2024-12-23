@@ -102,11 +102,12 @@ body{
 }
 
 .back-menug2{
-  background-color: #5C70FA;
+  background-color: #ffff;
 }
 
 .navbar-link {
     color: #ffff ;
+    cursor: pointer;
 }
 
 .navbar-link2{

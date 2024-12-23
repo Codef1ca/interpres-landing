@@ -19,14 +19,14 @@ export const Navbar = () => {
         justify="start"
       >
         <NavbarItem className="hidden sm:flex gap-6 item-nav ml-20">
-        <Link href="/" className="navbar-link-logo">
-        <Image
-                src="/assets/logonegrointer.png"
-                alt="Descripción de la imagen"
-                width={100}
-                height={100}
-              />
-        </Link>
+          <Link href="/" className="navbar-link-logo">
+            <Image
+              src="/assets/logonegrointer.png"
+              alt="Descripción de la imagen"
+              width={100}
+              height={100}
+            />
+          </Link>
           <Link href="/about" className="navbar-link2">
             Sobre Nosotros
           </Link>
@@ -42,20 +42,20 @@ export const Navbar = () => {
       <NavbarContent className="sm:hidden basis-1 pl-4 togle">
         <NavbarMenuToggle />
         <Link href="/" className="navbar-link-logo">
-        <Image
-                src="/assets/logonegrointer.png"
-                alt="Descripción de la imagen"
-                width={100}
-                height={100}
-              />
+          <Image
+            src="/assets/logonegrointer.png"
+            alt="Descripción de la imagen"
+            width={100}
+            height={100}
+          />
         </Link>
       </NavbarContent>
 
       <NavbarMenu className="back-menu">
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="navbar-link">
+            <NavbarMenuItem key={`${item.label}-${index}`}>
+              <Link href={item.href} className="navbar-link">
                 {item.label}
               </Link>
             </NavbarMenuItem>
