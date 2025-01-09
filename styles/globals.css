@@ -579,6 +579,37 @@ body{
     line-height: 60px;
   }
 
+  .container-comentarios{
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .comentarios-title1{
+    align-items: flex-start;
+    margin-left: -600px;
+  }
+
+  .container-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card-medio{
+    padding-bottom: 40px;
+    margin-top: -40px;
+  }
+
   @media (max-width: 1900px){
     .hero-home-container{
         background-size: contain;
@@ -624,6 +655,20 @@ body{
 }
 .contact-section {
   height: 700px;
+}
+.comentarios-title1{
+  margin-left: -500px;
+}}
+@media (max-width: 954px){
+.container-card{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-medio{
+  padding-bottom: 0px;
+  margin-top: 0px;
 }}
 
   @media (max-width: 900px){
@@ -647,6 +692,9 @@ body{
   margin-left: 105px;
   margin-right: 100px;
   gap: 100px;
+}
+.comentarios-title1{
+  margin-left: -300px;
 }}
 
   @media (max-width: 860px){
@@ -679,6 +727,9 @@ body{
   font-size: 29px;
   font-weight: 600;
   line-height: 48px;
+}
+.comentarios-title1{
+  margin-left: -200px;
 }}
 
   @media (max-width: 700px){
@@ -755,6 +806,9 @@ body{
     .container-title2 {
       font-size: 19px;
       line-height: 37px;
+  }
+  .comentarios-title1{
+    margin-left: -100px;
   }}
 
         @media (max-width: 540px){
@@ -808,7 +862,20 @@ width: 300px;
 
 .boton-generico-blanco, .boton-generico22{
   font-size: 13px;
-}}
+}
+
+.container-card{
+  flex-direction: column;
+}
+.card-medio{
+  width: 200px;
+}
+
+.card-medio2{
+  width: 200px;
+}
+
+}
 
 @media (max-width: 480px){
   .title-container1 {
@@ -824,6 +891,25 @@ width: 300px;
 .container2-contacto {
   flex-direction: column;
   margin-top: -52px;
+}
+.container-botones{
+  display: flex;
+  flex-direction: column;
+}
+.comentarios-title1{
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-comentarios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comentarios-title1{
+  font-size: 30px;
 }
 }
 
@@ -905,6 +991,10 @@ width: 300px;
   margin-bottom: 30px;
   font-weight: 500;
   margin-top: -489px;
+}
+
+.comentarios-title1{
+  font-size: 24px;
 }
 
     }

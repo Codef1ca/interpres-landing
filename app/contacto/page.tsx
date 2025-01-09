@@ -13,7 +13,7 @@ export default function ContactoPage() {
        <div className="container2-contacto">
         <div className="container-title2">
           <h2 className="title2a">+54 9 3875 77-3043</h2>
-          <h2 className="title2a">direccionmail@gmai.com</h2>
+          <h2 className="title2a">interpres.ok@gmail.com</h2>
         </div>
         <div className="list-container-foo">
                       <h2 className="titulos-footer2">Redes Sociales</h2>

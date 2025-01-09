@@ -28,6 +28,34 @@ export default function AboutPage() {
         </div>
       </div>
 
+      <div className="container-comentarios">
+          <h2 className="comentarios-title1">Nuestros estudiantes<br></br> dicen de nosotros</h2>
+          <div className="container-card">
+          <Image
+                  src="/assets/card-coment-1.png"
+                  alt="Descripción de la imagen"
+                  width={300}
+                  height={1100}
+                  className="card-medio2"
+                />
+          <Image
+                  src="/assets/card-coment-2.png"
+                  alt="Descripción de la imagen"
+                  width={300}
+                  height={1100}
+                  className="card-medio"
+                />
+
+          <Image
+                  src="/assets/card-coment-3.png"
+                  alt="Descripción de la imagen"
+                  width={300}
+                  height={1100}
+                  className="card-medio2"
+                />
+          </div>
+      </div>
+
       <div className="contenedor-secciontarjeton">
       <div className="contenedor-tarjeton">
         <h2 className="titulo-tarjeton">Empieza un idioma con nosotros hoy mismo</h2>
