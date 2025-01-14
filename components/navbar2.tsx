@@ -18,7 +18,7 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full back-menug2"
         justify="start"
       >
-        <NavbarItem className="hidden sm:flex gap-6 item-nav ml-20">
+        <NavbarItem className="hidden sm:flex gap-6 item-nav ml-20 navbaritem">
           <Link href="/" className="navbar-link-logo">
             <Image
               src="/assets/logonegrointer.png"

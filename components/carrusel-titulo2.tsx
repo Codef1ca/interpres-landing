@@ -51,7 +51,7 @@ const CarouselTitulo = () => {
           </div>
         ))}
       </div>
-      <div className="items-carru">
+      <div className="items-carru2">
       <p className='titulo-prop'>Todos nuestros cursos</p>
       </div>
       <p className="propuesta-text">Contamos con clases en todos los niveles, ajustadas a tus necesidades.</p>

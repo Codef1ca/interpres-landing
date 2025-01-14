@@ -9,7 +9,7 @@ import {
     return (
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>Clases presenciales.</AccordionTrigger>
+          <AccordionTrigger className="itemacordeon">Clases presenciales.</AccordionTrigger>
           <AccordionContent>
             <div className="container-apertura">
               <p className="p1-acordeon">Dictadas para todos los niveles, en la sede de Salta Capital.</p>
@@ -22,7 +22,7 @@ import {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Clases on-line sincrónicas</AccordionTrigger>
+          <AccordionTrigger className="itemacordeon">Clases on-line sincrónicas</AccordionTrigger>
           <AccordionContent>
           <div className="container-apertura">
               <p className="p1-acordeon">Vas a poder inscribirte y estudiar desde cualquier lugar. Contamos con horarios flexibles, para que armes tu cursada según tus necesidades.
@@ -36,7 +36,7 @@ import {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Clases on-line asincrónicas</AccordionTrigger>
+          <AccordionTrigger className="itemacordeon">Clases on-line asincrónicas</AccordionTrigger>
           <AccordionContent>
           <div className="container-apertura">
               <p className="p1-acordeon">Gestiona tu estudio como gustes. Vas a tener acceso a las clases grabadas de todo el curso y todo el material necesario para llevar el programa sin complicaciones.

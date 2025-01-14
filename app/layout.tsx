@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Carousel from "@/components/carrusel";
 import Image from "next/image";
 import { Providers } from "./providers"; 
+import Link from "next/link";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -31,20 +32,38 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   />
                   <div className="mail-inter-container">
                     <h2 className="titulos-footer">Contactate con nosotros</h2>
-                    <p className="p-footer2">direccionmail@gmai.com</p>
+                    <p className="p-footer2">interpres.ok@gmail.com</p>
                   </div>
                   <div className="seccion-dos-footer">
                     <div className="list-container-foo">
                       <h2 className="titulos-footer">Links</h2>
-                      <p className="p-footer">Sobre Nosotros</p>
-                      <p className="p-footer">Cursos on-line</p>
-                      <p className="p-footer">Contacto</p>
+                      <p className="p-footer">
+                        <Link href="/about" className="navbar-link">
+                          Sobre Nosotros
+                        </Link>
+                      </p>
+                      <p className="p-footer">
+                        <Link href="/cursos" className="navbar-link">
+                          Cursos On-line
+                        </Link>
+                      </p>
+                      <p className="p-footer">
+                        <Link href="/contacto" className="navbar-link">
+                          Contacto
+                        </Link>
+                      </p>
                     </div>
                     <div className="list-container-foo">
                       <h2 className="titulos-footer">Redes Sociales</h2>
-                      <p className="p-footer">Instagram</p>
-                      <p className="p-footer">Tiktok</p>
-                      <p className="p-footer">Facebook</p>
+                      <p className="p-footer">
+                        <a href="https://www.instagram.com/interpres.ok/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                      </p>
+                      <p className="p-footer">
+                        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">Tiktok</a>
+                      </p>
+                      <p className="p-footer">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                      </p>
                     </div>
                   </div>
                 </div>
