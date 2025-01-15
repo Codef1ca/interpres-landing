@@ -29,7 +29,7 @@ export default function AboutPage() {
         <CarouselPlugin />
         <div className="text-carrusel2">
           <h2 className="propuesta-title2">Aprende idiomas de la mano de<br></br> profesionales</h2>
-          <p className="txt-carru-p2">Párrafo acerca de los profesores que enseñan en Interpres, haciendo especial hincapié en la importancia de que sus profesores tienen una carrera profesional y certificado de enseñanza, no son nativos enseñando el idioma, sino que cuentan con una formación y herramientas pedagógicas.</p>
+          <p className="txt-carru-p2">En Interpres contamos con un equipo de profesionales altamente capacitados. Todos nuestros profesores tienen formación y experiencia en el área pedagógica, especialmente enfocada en la enseñanza de idiomas.</p>
           <button className="boton-generico" onClick={() => window.open(whatsappLink, '_blank')}>
             Quiero más información
           </button>
