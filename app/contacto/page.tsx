@@ -26,9 +26,9 @@ export default function ContactoPage() {
           </div>
           <div className="list-container-foo">
             <h2 className="titulos-footer2">Redes Sociales</h2>
-            <p className="p-footer-con">Instagram</p>
-            <p className="p-footer-con">Tiktok</p>
-            <p className="p-footer-con">Facebook</p>
+            <p className="p-footer-con"><a href="https://www.instagram.com/interpres.ok/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+            <p className="p-footer-con"><a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">Tiktok</a></p>
+            <p className="p-footer-con"><a href="https://www.facebook.com/p/Interpresok-100077385134937/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
           </div>
         </div>
       </div>

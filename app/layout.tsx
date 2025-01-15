@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                         <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">Tiktok</a>
                       </p>
                       <p className="p-footer">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="https://www.facebook.com/p/Interpresok-100077385134937/" target="_blank" rel="noopener noreferrer">Facebook</a>
                       </p>
                     </div>
                   </div>
