@@ -40,10 +40,10 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4 togle">
-        <NavbarMenuToggle />
+        <NavbarMenuToggle className="toglenegro"/>
         <Link href="/" className="navbar-link-logo">
           <Image
-            src="/assets/logonegrointer.png"
+            src="/assets/isoblancomedia.png"
             alt="Descripción de la imagen"
             width={100}
             height={100}

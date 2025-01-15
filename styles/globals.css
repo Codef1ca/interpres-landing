@@ -403,6 +403,10 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease; 
   }
+
+  .toglenegro{
+    color: #F5F5F5;
+  }
   
   .boton-generico22:hover {
     background-color: #e5c938; 
@@ -732,6 +736,9 @@ align-items: center;
 .card-medio{
   padding-bottom: 0px;
   margin-top: 0px;
+}
+.container-carrusel-fotos-txt {
+  flex-direction: column-reverse;
 }}
 
   @media (max-width: 900px){
@@ -891,6 +898,17 @@ align-items: center;
           height:1000px;
           width: 100%;
         }
+        .hero-home-container{
+          background-image: url('/assets/mediahome.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          height:780px;
+          width: 100%;
+          background-position-y: -300px;
+        }
+        .container-maquina {
+          margin-top: 138px;
+      }
         .contenedor-tarjeton {
           margin-bottom: 150px;
         }
