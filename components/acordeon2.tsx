@@ -18,6 +18,10 @@ export function AccordionDemo() {
           <AccordionContent className="linea">
             <div className="container-apertura">
               <p className="p1-acordeon">Contamos con clases en todos los niveles, ajustadas a tus necesidades y con la posibilidad de realizar los cursos A1, A2 y B1 de manera asincrónica, desde tu casa y a tu propio ritmo.</p>
+              <p className="p2-acordeon"><span className="negrita">Planes:</span></p>
+              <p className="p2-acordeon">Low cost (1 clase por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Regular (2 clases por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Intensivo (3 clases por semana de 1:30hs)</p>
               <div className="items-carru">
                   <p>Presencial</p>
                   <p>On-line</p>
@@ -31,10 +35,14 @@ export function AccordionDemo() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="item-cont">
-          <AccordionTrigger className="itemacordeon2">Frances.</AccordionTrigger>
+          <AccordionTrigger className="itemacordeon2">Francés.</AccordionTrigger>
           <AccordionContent>
             <div className="container-apertura">
               <p className="p1-acordeon">Contamos con clases en todos los niveles, ajustadas a tus necesidades y con la posibilidad de realizar los cursos A1, A2 y B1 de manera asincrónica, desde tu casa y a tu propio ritmo.</p>
+              <p className="p2-acordeon"><span className="negrita">Planes:</span></p>
+              <p className="p2-acordeon">Low cost (1 clase por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Regular (2 clases por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Intensivo (3 clases por semana de 1:30hs)</p>
               <div className="items-carru">
                   <p>Presencial</p>
                   <p>On-line</p>
@@ -48,12 +56,14 @@ export function AccordionDemo() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="item-cont">
-          <AccordionTrigger className="itemacordeon2">Portugues.</AccordionTrigger>
+          <AccordionTrigger className="itemacordeon2">Portugués.</AccordionTrigger>
           <AccordionContent>
             <div className="container-apertura">
               <p className="p1-acordeon">Contamos con clases en todos los niveles, ajustadas a tus necesidades y con la posibilidad de realizar los cursos A1, A2 y B1 de manera asincrónica, desde tu casa y a tu propio ritmo.</p>
+              <p className="p2-acordeon"><span className="negrita">Planes:</span></p>
+              <p className="p2-acordeon">Low cost (1 clase por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Regular (2 clases por semana de 1:30hs)</p>
               <div className="items-carru">
-                  <p>Presencial</p>
                   <p>On-line</p>
                 </div>
                 <div className="container-center">
@@ -64,11 +74,15 @@ export function AccordionDemo() {
             </div>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3" className="item-cont">
+        <AccordionItem value="item-4" className="item-cont">
           <AccordionTrigger className="itemacordeon2">Español.</AccordionTrigger>
           <AccordionContent>
             <div className="container-apertura">
               <p className="p1-acordeon">Contamos con clases en todos los niveles, ajustadas a tus necesidades y con la posibilidad de realizar los cursos A1, A2 y B1 de manera asincrónica, desde tu casa y a tu propio ritmo.</p>
+              <p className="p2-acordeon"><span className="negrita">Planes:</span></p>
+              <p className="p2-acordeon">Low cost (1 clase por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Regular (2 clases por semana de 1:30hs)</p>
+              <p className="p2-acordeon">Intensivo (3 clases por semana de 1:30hs)</p>
               <div className="items-carru">
                   <p>Presencial</p>
                   <p>On-line</p>

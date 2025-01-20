@@ -115,7 +115,7 @@ body{
 }
 
 .navbar-link2{
-  color: #F28EC2;
+  color:#5c70fa;
 }
 
 .container-maquina{
@@ -305,6 +305,7 @@ body{
     text-align: center;
     width: 500px;
     font-family: 'General Sans' !important;
+    font-weight: 600;
   }
 
 /* Contenedor principal */
@@ -375,7 +376,7 @@ body{
   .itemacordeon2{
     font-family: "neighbor", sans-serif;
     font-size: 70px;
-    color: #F28EC2;
+    color:#5c70fa;
     font-weight: 700;
   }
 
@@ -407,7 +408,7 @@ body{
 
   .border-b {
     border-bottom-width: 2px;
-    border-bottom-color: #F28EC2;
+    border-bottom-color:#5c70fa
 }
 
   .boton-generico22{
@@ -603,6 +604,7 @@ body{
   .parrafo-cursos2{
     color: #5C70FA;
     font-family: 'General Sans' !important;
+    font-weight: 600;
   }
 
   .parrafo-cursos{
