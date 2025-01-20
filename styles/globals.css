@@ -384,6 +384,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('/assets/back-carrusel-compu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -10px;
   }
 
   .itemacordeon2{
@@ -932,6 +936,10 @@ align-items: center;
           height:1000px;
           width: 100%;
         }
+
+
+     
+
         .hero-home-container{
           background-image: url('/assets/mediahome.png');
           background-size: cover;
