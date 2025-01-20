@@ -288,7 +288,7 @@ body{
     justify-content: center;
     color: #323232;
     gap: 22px;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
 
   }
 
@@ -371,6 +371,40 @@ body{
     font-family: "neighbor", sans-serif;
     font-size: 20px;
   }
+
+  .itemacordeon2{
+    font-family: "neighbor", sans-serif;
+    font-size: 70px;
+    color: #F28EC2;
+    font-weight: 700;
+  }
+
+  .container-acordeon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .itemacordeon2{
+    display: flex;
+    gap: 50px;
+  }
+
+  .item-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+
+  }
+
+  .border-b {
+    border-bottom-width: 2px;
+    border-bottom-color: #F28EC2;
+}
 
   .boton-generico22{
     display: inline-block;
@@ -1028,6 +1062,10 @@ width: 300px;
 .titulo-tarjeton {
   margin-top: -308px;
 }
+.itemacordeon2 {
+  display: flex;
+  gap: 14px;
+}
 }
 
     @media (max-width: 400px){
@@ -1118,7 +1156,12 @@ width: 300px;
   margin-top: -439px;
 }
 
-
+.itemacordeon2 {
+  font-family: neighbor, sans-serif;
+  font-size: 43px;
+  color: #f28ec2;
+  font-weight: 700;
+}
     }
 
     @media (max-width: 300px){

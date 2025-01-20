@@ -1,7 +1,7 @@
 "use client";
 
 import { CarouselPlugin } from "@/components/carrusel-img1";
-import CarouselTitulo from "@/components/carrusel-titulo";
+import { AccordionDemo } from "@/components/acordeon2";
 import { SeparatorDemo } from "@/components/separador";
 import Image from "next/image";
 import React from "react";
@@ -37,16 +37,7 @@ export default function Home() {
         <p className="propuesta-text">Nuestros programas están estructurados para ayudarte a desarrollar tus habilidades lingüísticas de manera efectiva y amena, ajustándose a tus tiempos y brindándote completa flexibilidad.</p>
       </div>
 
-      <CarouselTitulo />
-      <div className="items-carru">
-        <p>Presencial</p>
-        <p>On-line</p>
-      </div>
-      <div className="container-center">
-        <button className="boton-generico" onClick={() => window.open(whatsappLink, '_blank')}>
-          Quiero más información
-        </button>
-      </div>
+      <AccordionDemo />
 
       <div className="container-carrusel-fotos-txt">
         <CarouselPlugin />
