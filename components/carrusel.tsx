@@ -1,38 +1,40 @@
-'use client'
+'use client';
+
+import React from 'react';
+import { Link } from '@nextui-org/react';
 
 const logos = [
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
     '/assets/vector.png',
     'Elige Interpres',
     '/assets/vector.png',
-    'Elige Interpres',
+    'Elige Calidad',
+];
 
-  ];
-  
-  const Carousel = () => {
+const Carousel = () => {
     return (
         <div className="carousel">
             <div className="track">
@@ -42,7 +44,11 @@ const logos = [
                             <img src={item} alt={`Logo ${index + 1}`} className="logo2" />
                         ) : (
                             <p className="txt-carru">
-                            Elige <span className="negrita-c">Interpres</span>
+                                {item === 'Elige Interpres' ? (
+                                    <>Elige <span className="negrita-c">Interpres</span></>
+                                ) : (
+                                    <>Elige <span className="negrita-c">Calidad</span></>
+                                )}
                             </p>
                         )}
                     </div>
