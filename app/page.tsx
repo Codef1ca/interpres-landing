@@ -28,7 +28,7 @@ export default function Home() {
             }}
           />
         </div>
-        <h2 className="subt-hero">Somos <span className="negrita">Interpres</span>, academia de idiomas</h2>
+        <h2 className="subt-hero">Somos <span className="negritat">Interpres</span>, academia de idiomas</h2>
       </div>
 
       <div className="container-propuesta">

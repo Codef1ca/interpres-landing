@@ -135,6 +135,11 @@ body{
     font-weight: 800;
 }
 
+.negritat{
+  font-weight: 800;
+  font-size: 21px;
+}
+
 .subt-hero {
   font-size: 25px;
 }
