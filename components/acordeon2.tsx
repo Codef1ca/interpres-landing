@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Image from "next/image";
 
 export function AccordionDemo() {
   const message = encodeURIComponent('¡Hola! Vengo de la página web. Me gustaría saber mas información sobre:');
@@ -22,6 +23,26 @@ export function AccordionDemo() {
               <p className="p2-acordeon">Low cost (1 clase por semana de 1:30hs)</p>
               <p className="p2-acordeon">Regular (2 clases por semana de 1:30hs)</p>
               <p className="p2-acordeon">Intensivo (3 clases por semana de 1:30hs)</p>
+
+              <div className="incorporacion-carru">
+                <h2 className="titulo-minero">Inglés Minero</h2>
+                <p className="p-minero">Contamos con clases de Inglés <span className="negrita2">Minero</span> en conjunto con la <span className="negrita2">Escuela de Minería</span>,  ajustadas a las demandas del sector minero y con la posibilidad de realizar los cursos A1, A2 y B1 de manera presencial o virtual.</p>
+                <div className="items-carru">
+                   <Image
+                                      src="/assets/logo-cambio1.png"
+                                      alt="Descripción de la imagen"
+                                      width={100}
+                                      height={100}
+                  />
+                   <Image
+                                      src="/assets/logo-cambio2.png"
+                                      alt="Descripción de la imagen"
+                                      width={100}
+                                      height={100}
+                                    />
+                </div>
+              </div>
+
               <div className="items-carru">
                   <p>Presencial</p>
                   <p>On-line</p>
