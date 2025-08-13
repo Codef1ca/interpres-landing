@@ -10,6 +10,7 @@ import { Link } from "@nextui-org/link";
 
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 export const Navbar = () => {
   return (
@@ -38,6 +39,15 @@ export const Navbar = () => {
           </Link>
         </NavbarItem>
       </NavbarContent>
+       <NavbarContent justify="end">
+              <NavbarItem>
+              <a href="https://idiomasinterpres.online" target="_blank" rel="noopener noreferrer">
+              <Button className="boton-generico-ele bg-[#5C70FA] text-white hover:bg-[#5C70FA] hover:text-white">
+              Ingresar a la plataforma digital
+              </Button>
+              </a>
+              </NavbarItem>
+            </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4 togle">
         <NavbarMenuToggle />

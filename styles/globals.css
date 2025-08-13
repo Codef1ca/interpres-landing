@@ -30,6 +30,12 @@ body{
   padding-top: 70px;
 }
 
+.container-generico-ele{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
 .contenedor-tarjeton {
   background-image: url('/assets/tarjeton-inter.png');
   background-size: contain;
@@ -460,6 +466,22 @@ color: #5c70fa;
     transition: background-color 0.3s ease; 
   }
 
+  
+  .boton-generico-ele{
+    display: inline-block;
+    padding: 0.4rem 1rem; 
+    border: none;
+    border-radius: 9999px; 
+    background-color: #f4d842; 
+    color: #323232; 
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-top: 63px;
+  }
+
   .toglenegro{
     color: #F5F5F5;
   }
@@ -857,6 +879,20 @@ align-items: center;
 }
 .comentarios-title1{
   margin-left: -200px;
+}
+.boton-generico-ele{
+  display: inline-block;
+  padding: 0.2rem 0.5rem; 
+  border: none;
+  border-radius: 9999px; 
+  background-color: #f4d842; 
+  color: #323232; 
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-top: 63px;
 }}
 
   @media (max-width: 700px){
@@ -896,6 +932,15 @@ align-items: center;
 .contact-section {
   height: 600px;
 }}
+
+@media (max-width: 640px){
+.boton-generico-ele{
+  padding: 0.2rem 0.5rem; 
+  color: #323232; 
+  font-size: 12px;
+  margin-top: 5px;
+}}
+
 
     @media (max-width: 600px){
         .hero-home-container {
@@ -1120,7 +1165,15 @@ width: 300px;
     margin-top: 90px;
     font-size: 85px;
 }
+.boton-generico-ele{
+  padding: 0.2rem 0.5rem; 
+  color: #323232; 
+  font-size: 10px;
+  margin-top: 5px;
+}
   }
+
+  
 
     @media (max-width: 400px){
         .container-maquina {
@@ -1217,6 +1270,16 @@ width: 300px;
 .container-maquina {
   margin-top: 94px;
   font-size: 81px;
+}
+.boton-generico-ele{
+  padding: 0.1rem 0.3rem; 
+  color: #323232; 
+  font-size: 9px;
+  margin-top: 5px;
+}
+.px-6 {
+  padding-left: 0.5rem !important;
+  padding-right: 1.5rem;
 }
     }
 
@@ -1463,3 +1526,4 @@ width: 300px;
     @apply bg-background text-foreground;
     }
 }
+
