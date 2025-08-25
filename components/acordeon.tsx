@@ -56,10 +56,7 @@ export function AccordionDemo() {
                 Además, el pack incluye la posibilidad de agendar seis clases sincrónicas con nuestros profesores, para que despejes todas tus dudas durante el curso.</p>
               <p className="p2-acordeon"><span className="negrita">Niveles:</span> A1, A2.</p>
               <div className="container-botones">
-                <button className="boton-generico22" onClick={() => window.open(whatsappLink, '_blank')}>
-                  Quiero más información
-                </button>
-                <button className="boton-generico-blanco" onClick={() => window.open(whatsappLink, '_blank')}>
+                <button className="boton-generico-blanco" onClick={() => window.open("https://idiomasinterpres.online/", "_blank")}>
                   Quiero inscribirme
                 </button>
               </div>
